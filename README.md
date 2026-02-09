@@ -147,16 +147,18 @@ END
 |                         |                          |
 
 #### Manual Calculations
+![m](https://github.com/user-attachments/assets/1ac4259f-639e-4973-bb6d-fef224d1a41e)
 
 (Add your calculation here)
 
 ---CODE SEGMENT
+CODE SEGMENT
 ASSUME CS: CODE, DS: CODE
 ORG 1000H
 MOV CL,00H
 MOV AX,1234H
 MOV BX,124H
-MUL AX,BX
+mul AX,BX
 JNC L1
 INC CL
 L1:MOV SI,1200H
@@ -166,7 +168,6 @@ MOV AH,4CH
 INT 21H
 CODE ENDS
 END
-
 ## OUTPUT SCREEN FROM MASM SOFTWARE
 
 ## 4. DIVISION
@@ -210,6 +211,7 @@ END
 |                         |                          |
 
 #### Manual Calculations
+![s](https://github.com/user-attachments/assets/3c04aacf-0fc9-4fb5-ba12-0b2dce64cd00)
 
 (Add your calculation here)
 
